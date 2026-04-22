@@ -1,0 +1,152 @@
+/* ── Full-viewport section — sits in normal document flow ── */
+.screen {
+  position: relative;
+  height: 100vh;
+  background: #210141;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── Sunrise glow ──
+   Gradient center (#ecf3fe) starts fully below the section.
+   It rises until its center sits exactly at the section's bottom edge —
+   matching the homepage background below. No hard line, ever.
+*/
+@keyframes sunrise {
+  from { transform: translateX(-50%) translateY(100%); opacity: 0; }
+  6%   { opacity: 1; }
+  to   { transform: translateX(-50%) translateY(0%); opacity: 1; }
+}
+
+.glow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 220%;
+  height: 110vh;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse 80% 55% at 50% 100%,
+    rgba(236, 243, 254, 1)   0%,
+    rgba(220, 200, 255, 1)  12%,
+    rgba(178, 122, 246, 1)  26%,
+    rgba(119,   0, 238, 1)  40%,
+    rgba( 76,   1, 152, 1)  58%,
+    rgba( 33,   1,  65, 1)  80%
+  );
+  opacity: 0;
+  transform: translateX(-50%) translateY(100%);
+  animation: sunrise 5s ease-in-out forwards;
+}
+
+.screen.done {
+  pointer-events: none;
+}
+
+/* ── Nav ── */
+.nav {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px 24px;
+  flex-shrink: 0;
+}
+
+.logotype {
+  flex-shrink: 0;
+  display: block;
+  height: 24px;
+}
+
+.logotype img {
+  height: 24px;
+  width: auto;
+  display: block;
+}
+
+.navCenter {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.arrow {
+  width: 12px;
+  height: 6px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.cta {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: #d8f95d;
+  color: #000;
+  border: none;
+  border-radius: 200px;
+  padding: 12px 24px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ── Text stage ── */
+@keyframes wordAppear {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.stage {
+  position: relative;
+  z-index: 10;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline {
+  font-family: 'Instrument Serif', serif;
+  font-size: clamp(3rem, 6.67vw, 96px);
+  font-weight: 400;
+  line-height: 1.2;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+.lineRow {
+  display: block;
+  white-space: nowrap;
+}
+
+.word {
+  display: inline;
+  animation: wordAppear 1.2s ease-in-out both;
+}
