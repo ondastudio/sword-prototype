@@ -1,0 +1,91 @@
+/* Unified hero title — lives at the App level, above both LoadingScreen
+   and HomePage, so a single DOM node animates continuously from the
+   loading position into the homepage position without any crossfade. */
+.heroTitle {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin: 0;
+  text-align: center;
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  color: #ECF3FE;
+  /* Above LoadingScreen (z-index: 100) so the title stays visible while
+     the sunrise fades out. */
+  z-index: 200;
+  pointer-events: none;
+  padding: 0 6vw;
+  text-wrap: balance;
+  transform: translateY(-50%);
+}
+
+.italic { font-style: italic; }
+
+.word {
+  display: none;
+}
+.word.in {
+  display: inline-block;
+  /* Outer word owns the horizontal slide. The tick FLIPs this transform
+     when a new token enters layout and shifts the phrase; the CSS
+     transition then eases it back to 0. */
+  transition: transform 500ms cubic-bezier(.22, 1, .36, 1);
+  /* Re-enable pointer events on visible words so DevTools can pick them —
+     the h1 wrapper stays pointer-events:none to not shadow the page beneath. */
+  pointer-events: auto;
+}
+
+/* Inner owns the reveal animation (opacity, rise, blur, horizontal mask
+   wipe). Kept separate so the outer's translateX from FLIP doesn't fight
+   the keyframed transform. */
+.wordInner {
+  display: inline-block;
+  animation: wordIn 620ms cubic-bezier(.22, 1, .36, 1) both;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, transparent 25%, black 75%, black 100%);
+          mask-image: linear-gradient(90deg, transparent 0%, transparent 25%, black 75%, black 100%);
+  /* 200% vertical so descenders (g, p) paint below the content box and
+     don't fall outside the mask area — they'd otherwise read as cut off. */
+  -webkit-mask-size: 400% 200%;
+          mask-size: 400% 200%;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  will-change: opacity, transform, filter, mask-position;
+}
+
+.br {
+  display: none;
+}
+.br.in {
+  display: block;
+  width: 100%;
+  height: 0;
+}
+
+.sp {
+  display: none;
+  width: 0.28em;
+}
+.sp.in {
+  display: inline-block;
+}
+
+@keyframes wordIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+    filter: blur(6px);
+    -webkit-mask-position: 0% 0;
+            mask-position: 0% 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+    -webkit-mask-position: 100% 0;
+            mask-position: 100% 0;
+  }
+}

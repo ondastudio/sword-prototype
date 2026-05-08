@@ -12,20 +12,53 @@
   --color-muted:   rgba(240,237,232,0.45);
   --color-accent:  #c8f250;
 
-  --max-w: 1200px;
+  --max-w: 1440px;
   --gutter: clamp(1.5rem, 5vw, 4rem);
 }
 
 html { scroll-behavior: smooth; }
+html, body { overflow-x: clip; }
 
 body {
   font-family: var(--font-sans);
-  background: var(--color-bg);
+  /* The Sword Intelligence section ends in a light #f9f9f9 footer whose
+     lime gradient blob bleeds slightly past the footer's bottom edge.
+     Keeping the page-level backdrop light (instead of the original
+     #0d0d0d) means that overflow lands on light, so the blur halo fades
+     cleanly to off-white instead of producing a dark stripe. */
+  background: #f9f9f9;
   color: var(--color-text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
   width: 100%;
+  overflow-x: clip;
 }
+
+img { display: block; max-width: none; }
+p, h1, h2, h3 { margin: 0; padding: 0; }
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* ── Sword Intelligence sections below the homepage hero ── */
+.intelligence-page {
+  position: relative;
+  width: 100%;
+  color: #000;
+  background: #f9f9f9;
+}
+
+/* CTA button (text pill + circle with arrow) hover animation */
+.cta-group { display: flex; align-items: center; cursor: pointer; }
+.cta-group > .cta-circle {
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+.cta-group:hover > .cta-circle { transform: translateX(8px); }

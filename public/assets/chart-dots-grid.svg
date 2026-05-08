@@ -1,0 +1,104 @@
+<svg width="223" height="228" viewBox="0 0 223 228" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<ellipse cx="25.0323" cy="27.8151" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 25.0323 27.8151)" fill="url(#paint0_linear_6748_3606)"/>
+<ellipse cx="81.5557" cy="84.2213" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 81.5557 84.2213)" fill="url(#paint1_linear_6748_3606)"/>
+<ellipse cx="81.4972" cy="27.7604" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 81.4972 27.7604)" fill="url(#paint2_linear_6748_3606)"/>
+<ellipse cx="138.075" cy="140.62" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 138.075 140.62)" fill="url(#paint3_linear_6748_3606)"/>
+<ellipse cx="138.017" cy="84.1588" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 138.017 84.1588)" fill="url(#paint4_linear_6748_3606)"/>
+<ellipse cx="137.958" cy="27.6979" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 137.958 27.6979)" fill="url(#paint5_linear_6748_3606)"/>
+<ellipse cx="194.599" cy="197.026" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 194.599 197.026)" fill="url(#paint6_linear_6748_3606)"/>
+<ellipse cx="194.54" cy="140.557" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 194.54 140.557)" fill="url(#paint7_linear_6748_3606)"/>
+<ellipse cx="194.478" cy="84.0963" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 194.478 84.0963)" fill="url(#paint8_linear_6748_3606)"/>
+<ellipse cx="194.419" cy="27.6354" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 194.419 27.6354)" fill="url(#paint9_linear_6748_3606)"/>
+<ellipse cx="25.1495" cy="32.8151" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 25.1495 32.8151)" fill="url(#pattern0_6748_3606)"/>
+<ellipse cx="81.6729" cy="89.2213" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 81.6729 89.2213)" fill="url(#pattern1_6748_3606)"/>
+<ellipse cx="81.6143" cy="32.7604" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 81.6143 32.7604)" fill="url(#pattern2_6748_3606)"/>
+<ellipse cx="138.192" cy="145.62" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 138.192 145.62)" fill="url(#pattern3_6748_3606)"/>
+<ellipse cx="138.134" cy="89.1588" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 138.134 89.1588)" fill="url(#pattern4_6748_3606)"/>
+<ellipse cx="138.075" cy="32.6979" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 138.075 32.6979)" fill="url(#pattern5_6748_3606)"/>
+<ellipse cx="194.716" cy="202.026" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 194.716 202.026)" fill="url(#pattern6_6748_3606)"/>
+<ellipse cx="194.657" cy="145.557" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 194.657 145.557)" fill="url(#pattern7_6748_3606)"/>
+<ellipse cx="194.595" cy="89.0963" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 194.595 89.0963)" fill="url(#pattern8_6748_3606)"/>
+<ellipse cx="194.536" cy="32.6354" rx="25.0058" ry="25.0057" transform="rotate(-0.0608354 194.536 32.6354)" fill="url(#pattern9_6748_3606)"/>
+<defs>
+<linearGradient id="paint0_linear_6748_3606" x1="25.0323" y1="2.80937" x2="25.0323" y2="52.8208" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D8F95D"/>
+<stop offset="0.774038" stop-color="#FAFFEB" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_6748_3606" x1="81.5557" y1="59.2156" x2="81.5557" y2="109.227" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D8F95D"/>
+<stop offset="0.774038" stop-color="#FAFFEB" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_6748_3606" x1="81.4972" y1="2.75469" x2="81.4972" y2="52.7661" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D8F95D"/>
+<stop offset="0.774038" stop-color="#FAFFEB" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint3_linear_6748_3606" x1="138.075" y1="115.614" x2="138.075" y2="165.626" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D8F95D"/>
+<stop offset="0.774038" stop-color="#FAFFEB" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint4_linear_6748_3606" x1="138.017" y1="59.1531" x2="138.017" y2="109.165" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D8F95D"/>
+<stop offset="0.774038" stop-color="#FAFFEB" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint5_linear_6748_3606" x1="137.958" y1="2.69219" x2="137.958" y2="52.7036" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D8F95D"/>
+<stop offset="0.774038" stop-color="#FAFFEB" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint6_linear_6748_3606" x1="194.599" y1="172.02" x2="194.599" y2="222.032" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D8F95D"/>
+<stop offset="0.774038" stop-color="#FAFFEB" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint7_linear_6748_3606" x1="194.54" y1="115.552" x2="194.54" y2="165.563" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D8F95D"/>
+<stop offset="0.774038" stop-color="#FAFFEB" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint8_linear_6748_3606" x1="194.478" y1="59.0906" x2="194.478" y2="109.102" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D8F95D"/>
+<stop offset="0.774038" stop-color="#FAFFEB" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint9_linear_6748_3606" x1="194.419" y1="2.62969" x2="194.419" y2="52.6411" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D8F95D"/>
+<stop offset="0.774038" stop-color="#FAFFEB" stop-opacity="0"/>
+</linearGradient>
+<pattern id="pattern0_6748_3606" patternUnits="userSpaceOnUse" patternTransform="matrix(9 0 0 9 0.143724 7.80937)" preserveAspectRatio="none" viewBox="0 0 9 9" width="1" height="1">
+<g id="pattern0_6748_3606_inner">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#D8F95D"/>
+</g>
+</pattern><pattern id="pattern1_6748_3606" patternUnits="userSpaceOnUse" patternTransform="matrix(9 0 0 9 56.6672 64.2156)" preserveAspectRatio="none" viewBox="0 0 9 9" width="1" height="1">
+<g id="pattern1_6748_3606_inner">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#D8F95D"/>
+</g>
+</pattern><pattern id="pattern2_6748_3606" patternUnits="userSpaceOnUse" patternTransform="matrix(9 0 0 9 56.6086 7.75468)" preserveAspectRatio="none" viewBox="0 0 9 9" width="1" height="1">
+<g id="pattern2_6748_3606_inner">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#D8F95D"/>
+</g>
+</pattern><pattern id="pattern3_6748_3606" patternUnits="userSpaceOnUse" patternTransform="matrix(9 0 0 9 113.187 120.614)" preserveAspectRatio="none" viewBox="0 0 9 9" width="1" height="1">
+<g id="pattern3_6748_3606_inner">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#D8F95D"/>
+</g>
+</pattern><pattern id="pattern4_6748_3606" patternUnits="userSpaceOnUse" patternTransform="matrix(9 0 0 9 113.128 64.1531)" preserveAspectRatio="none" viewBox="0 0 9 9" width="1" height="1">
+<g id="pattern4_6748_3606_inner">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#D8F95D"/>
+</g>
+</pattern><pattern id="pattern5_6748_3606" patternUnits="userSpaceOnUse" patternTransform="matrix(9 0 0 9 113.07 7.69218)" preserveAspectRatio="none" viewBox="0 0 9 9" width="1" height="1">
+<g id="pattern5_6748_3606_inner">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#D8F95D"/>
+</g>
+</pattern><pattern id="pattern6_6748_3606" patternUnits="userSpaceOnUse" patternTransform="matrix(9 0 0 9 169.71 177.02)" preserveAspectRatio="none" viewBox="0 0 9 9" width="1" height="1">
+<g id="pattern6_6748_3606_inner">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#D8F95D"/>
+</g>
+</pattern><pattern id="pattern7_6748_3606" patternUnits="userSpaceOnUse" patternTransform="matrix(9 0 0 9 169.652 120.552)" preserveAspectRatio="none" viewBox="0 0 9 9" width="1" height="1">
+<g id="pattern7_6748_3606_inner">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#D8F95D"/>
+</g>
+</pattern><pattern id="pattern8_6748_3606" patternUnits="userSpaceOnUse" patternTransform="matrix(9 0 0 9 169.589 64.0906)" preserveAspectRatio="none" viewBox="0 0 9 9" width="1" height="1">
+<g id="pattern8_6748_3606_inner">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#D8F95D"/>
+</g>
+</pattern><pattern id="pattern9_6748_3606" patternUnits="userSpaceOnUse" patternTransform="matrix(9 0 0 9 169.53 7.62968)" preserveAspectRatio="none" viewBox="0 0 9 9" width="1" height="1">
+<g id="pattern9_6748_3606_inner">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#D8F95D"/>
+</g>
+</pattern></defs>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="474" height="245" viewBox="0 0 474 245" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <pattern id="workdaysDots" x="0" y="0" width="16.29" height="16.29" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#d8f95d"/>
+    </pattern>
+    <radialGradient id="workdaysFade" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#000" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#000" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.2"/>
+    </radialGradient>
+    <mask id="workdaysMask">
+      <rect width="474" height="245" fill="url(#workdaysFade)"/>
+    </mask>
+  </defs>
+  <rect width="474" height="245" fill="url(#workdaysDots)" mask="url(#workdaysMask)"/>
+</svg>

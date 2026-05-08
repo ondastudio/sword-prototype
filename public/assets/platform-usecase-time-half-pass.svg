@@ -1,0 +1,7 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="time-half-pass">
+<path id="Vector" d="M14.6143 4.16675C14.1609 4.32888 13.7163 4.50913 13.2817 4.70658M9.04038 7.44285C8.66288 7.77388 8.30046 8.121 7.95426 8.48306M5.05166 12.608C4.74201 13.2301 4.47058 13.8738 4.24033 14.5359M3.35883 18.9857C3.32181 19.6347 3.32321 20.2964 3.36261 20.9456M4.27945 25.4431C4.50115 26.0661 4.75938 26.6726 5.05166 27.2597M7.8168 31.2392C8.22383 31.6751 8.65408 32.0899 9.10561 32.4819M12.9593 35.0107C13.6166 35.3257 14.2975 35.6011 14.9987 35.8334" stroke="var(--stroke-0, black)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M20 36.6667C29.2047 36.6667 36.6667 29.2047 36.6667 20C36.6667 10.7952 29.2047 3.33333 20 3.33333" stroke="var(--stroke-0, black)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linecap="round"/>
+<path id="Vector_3" d="M20 22.5C21.3807 22.5 22.5 21.3807 22.5 20C22.5 18.6193 21.3807 17.5 20 17.5M20 22.5C18.6193 22.5 17.5 21.3807 17.5 20C17.5 18.6193 18.6193 17.5 20 17.5M20 22.5V26.6667M20 17.5V10" stroke="var(--stroke-0, black)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linecap="round"/>
+</g>
+</svg>

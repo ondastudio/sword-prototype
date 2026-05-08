@@ -1,0 +1,71 @@
+/* App-level fixed wrapper so the pill stays at viewport top across the
+   entire scroll, free of clipping from #root's overflow-x: clip and from
+   HomePage's .sticky { overflow: hidden }. */
+.navPillWrap {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  transition: opacity 300ms cubic-bezier(.4, 0, .2, 1);
+}
+
+.navPill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 4px 4px 32px;
+  background: #dad6ff;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 40px;
+}
+
+.navLogo {
+  width: 23.71px;
+  height: 24px;
+  display: block;
+}
+
+.navPillMenu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: transparent;
+  border: 0;
+  font-family: 'DM Mono', monospace;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+}
+
+.navPillMenuIcon {
+  width: 18px;
+  height: 18px;
+  transform: rotate(-45deg);
+  display: block;
+}
+
+.navCta {
+  height: 40px;
+  padding: 0 24px;
+  background: #7700ee;
+  color: #fff;
+  border: 0;
+  border-radius: 40px;
+  font-family: 'DM Mono', monospace;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}

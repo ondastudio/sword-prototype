@@ -1,0 +1,136 @@
+.panel {
+  position: absolute;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* Re-enable pointer events: ancestor .solutionLayer disables them so the
+     orbiting cluster doesn't steal scroll/click from the page beneath. The
+     panel is a real surface that needs to receive events. */
+  pointer-events: auto;
+}
+
+/* Mesh-gradient backdrop (Figma 7300:457). 85% opacity over the cream base. */
+.panel::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/care-mesh.png') center / cover no-repeat;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+/* Animated glow border — mirrors the page-level cool-palette glow
+   (HomePage.jsx variant 2) so the frame is continuous across the
+   orbit→panel handoff. The 60px outset is clipped by .panel's
+   overflow:hidden, same as the viewport-level border against the
+   viewport. */
+.glowBorder {
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  width: calc(100% + 120px);
+  height: calc(100% + 120px);
+  object-fit: fill;
+  pointer-events: none;
+  filter: saturate(1.9) brightness(1.25) contrast(1.2);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 79px;
+  width: 640px;
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 80px;
+  width: 100%;
+  justify-content: center;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  transition: opacity 200ms ease;
+}
+
+.tiles:hover .tile:not(:hover) {
+  opacity: 0.25;
+}
+
+.circle {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  /* Figma exports the ring at 164×164 (Ellipse 2603 Stroke, node 7141:267)
+     with the dots sitting on its viewBox edge. Render at 102.5% so the dots
+     bleed slightly outside the icon box, matching the design's
+     `inset: -1.25%`. */
+  background: url('/assets/care-ops-ring.svg') center / 102.5% 102.5% no-repeat;
+  transition: background-image 200ms ease;
+}
+
+/* Hover: swap dotted ring for the soft lavender radial halo (Figma 7300:383).
+   Icon and caption stay black — only the ring background changes. */
+.tile:hover .circle {
+  background-image: url('/assets/care-ops-halo.svg');
+  background-size: 100% 100%;
+}
+
+.icon {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-color: #000;
+  -webkit-mask: var(--icon-src) center / contain no-repeat;
+  mask: var(--icon-src) center / contain no-repeat;
+}
+
+.caption {
+  margin: 0;
+  width: 148px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #000;
+  text-align: center;
+}
+
+/* Cursor-following tip — Figma 7300:461 (portaled to document.body).
+   Card is 238×auto with 16/24 padding → 190px text width, wraps to 2 lines. */
+.tip {
+  position: fixed;
+  box-sizing: border-box;
+  width: 238px;
+  margin: 0;
+  padding: 16px 24px;
+  border-radius: 24px;
+  background: #4a89e8;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  font-family: 'DM Mono', monospace;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.14px;
+  text-transform: uppercase;
+  color: #fff;
+  pointer-events: none;
+  /* Sits 16px below-right of the cursor. */
+  transform: translate(16px, 16px);
+  z-index: 100;
+}

@@ -1,0 +1,19 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 1022.12 839.182" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2117760382">
+<g id="Vector 1680" filter="url(#filter0_f_0_46)">
+<path d="M576.872 430.544C850.135 214.337 990.137 371.017 826.807 480.435C733.206 686.121 668.503 686.122 404.663 709.268C140.824 732.415 86.1711 660.871 149.618 536.197C213.066 411.523 125.747 368.913 289.077 165.331C452.406 -38.2504 342.603 615.898 576.872 430.544Z" fill="url(#paint0_radial_0_46)"></path>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_46" x="3.36596e-07" y="-3.51538e-06" width="1022.12" height="839.182" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+<feGaussianBlur stdDeviation="62.7955" result="effect1_foregroundBlur_0_46"></feGaussianBlur>
+</filter>
+<radialGradient id="paint0_radial_0_46" cx="0" cy="0" r="1" gradientTransform="matrix(-239.435 -140.839 178.511 -174.29 524.649 467.811)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7700EE"></stop>
+<stop offset="0.235577" stop-color="#A684FF"></stop>
+<stop offset="0.884615" stop-color="#D1E0F8" stop-opacity="0.5"></stop>
+</radialGradient>
+</defs>
+</svg>

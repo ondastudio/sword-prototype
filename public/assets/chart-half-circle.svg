@@ -1,0 +1,14 @@
+<svg width="365" height="364" viewBox="0 0 365 364" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="364.859" width="364" height="364" rx="182" transform="rotate(90 364.859 0)" fill="url(#pattern0_6748_3567)"/>
+<path d="M364 182C364 155.209 358.085 128.749 346.679 104.508C335.272 80.2673 318.654 58.8436 298.011 41.7666C277.369 24.6896 253.211 12.3804 227.262 5.71786C201.313 -0.944699 174.213 -1.79635 147.897 3.22372L182 182H364Z" fill="url(#paint0_radial_6748_3567)"/>
+<defs>
+<radialGradient id="paint0_radial_6748_3567" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(182 182) rotate(90) scale(182)">
+<stop offset="0.586538" stop-color="#FAFFEB" stop-opacity="0"/>
+<stop offset="1" stop-color="#D8F95D"/>
+</radialGradient>
+<pattern id="pattern0_6748_3567" patternUnits="userSpaceOnUse" patternTransform="matrix(10.5 0 0 10.5 364.859 0)" preserveAspectRatio="none" viewBox="0 0 10.5 10.5" width="1" height="1">
+<g id="pattern0_6748_3567_inner">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#D8F95D"/>
+</g>
+</pattern></defs>
+</svg>

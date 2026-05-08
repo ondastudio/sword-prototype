@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle id="Ellipse 1683" cx="100" cy="100" r="100" fill="url(#pattern0_0_6)"></circle>
+<defs>
+<pattern id="pattern0_0_6" patternUnits="userSpaceOnUse" patternTransform="matrix(10.5 0 0 10.5 0 0)" preserveAspectRatio="none" viewBox="0 0 10.5 10.5" width="1" height="1">
+<g id="pattern0_0_6_inner">
+<circle id="Ellipse 1690" cx="1.5" cy="1.5" r="1.5" fill="var(--fill-0, #7700EE)"></circle>
+</g>
+</pattern></defs>
+</svg>

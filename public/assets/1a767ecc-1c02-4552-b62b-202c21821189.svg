@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 680 215" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Frame 2147224302">
+<circle id="Ellipse 1682" cx="100" cy="100" r="100" fill="url(#pattern0_0_41)"></circle>
+<circle id="Ellipse 1683" cx="340" cy="100" r="100" fill="url(#pattern1_0_41)"></circle>
+<circle id="Ellipse 1692" cx="580" cy="100" r="100" fill="url(#pattern2_0_41)"></circle>
+</g>
+<defs>
+<pattern id="pattern0_0_41" patternUnits="userSpaceOnUse" patternTransform="matrix(10.5 0 0 10.5 0 0)" preserveAspectRatio="none" viewBox="0 0 10.5 10.5" width="1" height="1">
+<g id="pattern0_0_41_inner">
+<circle id="Ellipse 1715" cx="1.5" cy="1.5" r="1.5" fill="var(--fill-0, #A684FF)"></circle>
+</g>
+</pattern><pattern id="pattern1_0_41" patternUnits="userSpaceOnUse" patternTransform="matrix(10.5 0 0 10.5 240 0)" preserveAspectRatio="none" viewBox="0 0 10.5 10.5" width="1" height="1">
+<g id="pattern1_0_41_inner">
+<circle id="Ellipse 1715" cx="1.5" cy="1.5" r="1.5" fill="var(--fill-0, #A684FF)"></circle>
+</g>
+</pattern><pattern id="pattern2_0_41" patternUnits="userSpaceOnUse" patternTransform="matrix(10.5 0 0 10.5 480 0)" preserveAspectRatio="none" viewBox="0 0 10.5 10.5" width="1" height="1">
+<g id="pattern2_0_41_inner">
+<circle id="Ellipse 1715" cx="1.5" cy="1.5" r="1.5" fill="var(--fill-0, #A684FF)"></circle>
+</g>
+</pattern></defs>
+</svg>
