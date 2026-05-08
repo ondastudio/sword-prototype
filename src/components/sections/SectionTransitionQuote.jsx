@@ -167,7 +167,7 @@ export function SectionTransition() {
                 lineHeight: 'normal', textTransform: 'uppercase', color: '#000',
                 whiteSpace: 'nowrap', margin: 0,
               }}>
-                Scale capcity without scaling costs
+                Scale capacity without scaling costs
               </p>
             </div>
             <p style={{

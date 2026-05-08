@@ -267,7 +267,7 @@ export default function SectionModular() {
         }}>
           <div style={{ width: '100%', height: '100%', boxSizing: 'border-box', background: 'rgba(139,174,228,0.25)', backdropFilter: 'blur(20px)', borderRadius: '24px', padding: '8px', display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'center' }}>
             <div style={{ background: '#faffeb', borderRadius: '18px', flex: '1 0 0', width: '100%', overflow: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between', padding: '16px 8px', boxSizing: 'border-box', position: 'relative' }}>
-              <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 500, fontSize: '18px', lineHeight: '1.3', letterSpacing: '-0.18px', color: '#000', whiteSpace: 'nowrap', position: 'relative', zIndex: 1 }}>Lorem</p>
+              <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 500, fontSize: '18px', lineHeight: '1.3', letterSpacing: '-0.18px', color: '#000', whiteSpace: 'nowrap', position: 'relative', zIndex: 1 }}>AI Skills</p>
               <div style={{ width: '62px', height: '62px', position: 'relative', flexShrink: 0, zIndex: 1 }}>
                 <img src={mImgCalendar} alt="" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }} />
               </div>
